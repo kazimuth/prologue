@@ -1,45 +1,38 @@
-Prologue by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Prologue
 
+Prologue is a single page responsive site template with a sticky sidebar. It is a port of [HTML5 UP's Prologue theme](https://html5up.net/prologue).
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
+![Prologue Theme screenshot](https://raw.githubusercontent.com/sethmacleod/prologue/master/images/screenshot.png)
 
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+## Installation
 
-http://ineedchemicalx.deviantart.com/
+Run the following commands inside your Hugo site folder:
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
+    $ cd themes
+    $ git clone https://github.com/sethmacleod/dimension.git
 
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
+## Getting Started
 
-(* = Not included)
+After installation, you will need to configure the config.toml file, change pictures, and edit your page.
 
-AJ
-aj@lkn.io | @ajlkn
+### The config file
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+Copy the config.toml from the exampleSite folder into your Hugo site's root folder. Change the fields as needed. Add or delete social media by following the examples in the file. You may need to look up the [font-awesome](http://fontawesome.io/) icon names. The icon field should be filled out without the "fa" prefix. The icon field for Twitter should be 'twitter' instead of 'fa-twitter'.
 
+The portfolio is based on 3 columns. Pick a column for your photos and simply add their data to the appropriate section.
 
-Credits:
+### Changing pictures
 
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
+You will need to change your avatar, banner, and about photos. To change these, add the following three files to your `/static/img/` folder:
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+- `avatar.jpg`
+- `banner.jpg`
+- `about.jpg`
 
-	Other
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		Respond.js (j.mp/respondjs)
-		jquery.scrolly (@ajlkn)
-		jquery.scrollzer (@ajlkn)
-		Skel (skel.io)
+### Writing your page
+
+The rest of your page can be edited in the `index.html` file. Copy it to your layouts folder and then make your changes.
+
+## License
+
+This theme is released under the CC BY 3.0 license. For more information, read the [License](https://github.com/sethmacleod/prologue/blob/master/LICENSE.md).
